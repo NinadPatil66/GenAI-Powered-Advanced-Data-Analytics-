@@ -85,18 +85,29 @@ Logistic Regression - Great for binary predictions, Easy to interpret - Shows th
 Decision Trees - Transparency (Easy to explain to stakeholders), Works with both numerical and categorical data, Shows which customer attributes are most predictive of delinquency.
 Neural Networks - Uncover deep patterns in customer financial behavior, More accurate on large datasets than simpler models
 
-3) Generating model code
-4) Evaluating model performance
+2) Generating model code
+   
+3) Evaluating model performance
 GenAI can help:
 - Suggest evaluation metrics (e.g., accuracy, precision, recall).
 - Interpret results and suggest improvements.
 - Highlight ethical concerns, such as potential biases.
+
+If your model is not performing well, there are several ways to improve it:
+
+Feature engineering – Adjust the dataset by adding or removing variables that may be impacting model predictions. For example, including customer tenure or past delinquency trends may enhance predictive power.
+Rebalancing the dataset – If the dataset is highly skewed (e.g., 95% non-delinquent, 5% delinquent), oversampling delinquent cases or undersampling non-delinquent cases can improve results.
+Trying different models – Some algorithms work better with certain data structures. If logistic regression is underperforming, a decision tree may provide better results.
+Hyperparameter tuning – Fine-tuning model parameters, such as adjusting the threshold for delinquency classification, can improve precision and recall scores.
 
 Prompt Example:
 1) "Based on this dataset, which predictive modeling techniques are best suited for identifying customers likely to miss payments? Explain why."
 2) "Generate a decision tree model to predict delinquency risk based on income, credit utilization, and missed payments. Explain how the model determines risk categories."
 3) "Generate a logistic regression model framework using this dataset to predict customer delinquency. Provide an explanation of each step, ensuring outputs are reviewed and refined for accuracy and fairness."
 4) "Evaluate the performance of this predictive model using precision and recall. Identify any biases in the predictions."
+5) "Create a basic neural network model for predicting delinquency risk. Compare its strengths and weaknesses against decision trees and logistic regression."
+6) "Explain how logistic regression can be used to predict credit card delinquency. Generate a simple model using income, debt-to-income ratio, and payment history."
+7) "Evaluate the performance of my credit risk model using precision, recall, and F1 score. Suggest improvements if needed."
 
 # Task 3 - Business report and data storytelling for collections strategy
 
