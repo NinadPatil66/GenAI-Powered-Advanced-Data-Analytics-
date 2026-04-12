@@ -111,3 +111,7 @@ Prompt Example:
 # Task 3 - Business report and data storytelling for collections strategy
 
 # Task 4 - Implementing an AI-driven collections strategy
+How to design an AI-powered, autonomous debt-management system.
+The role of agentic AI in automating financial decision-making.
+Strategies for ensuring compliance, transparency, and fairness in AI-driven financial services.
+How to align AI-driven insights with financial industry regulatory standards.
