@@ -41,3 +41,40 @@ Explain why this is the best choice, providing a clear rationale. Consider:
 - Anticipated ROI: What is the expected return on investment for this action?
 - Alignment with business goals: How does this action support Geldium's overall strategy?
 - Evidence from the data: How does the data support the effectiveness of this action?
+
+# Best practices for presenting AI-driven insights to stakeholders:
+Clearly communicate what the business needs to know and what they can do with it.
+
+## Know your audience:
+They want to know what it means for customer risk and what to do next. Focus on what matters to their priorities: risk reduction, customer fairness, and operational efficiency.
+
+## Lead with what matters most:
+Avoid burying your main points under technical details. Put your most important insights up front. This could be:
+- Which customer segment is most at risk
+- What intervention is recommended
+- What impact the model could have if applied
+
+## Use clear, structured language:
+Avoid jargon. Frame your message using clear, accessible terms. When referencing model outputs, pair any technical term with a plain-language explanation.
+Example: “Our model shows a high correlation between missed payments and income volatility, suggesting that outreach should prioritise lower-income segments.”
+
+## Use effective visualizations:
+Use clear and concise visualizations (e.g., charts, graphs, tables) to support your insights.
+Choose the right visualization type for the data you are presenting (e.g., bar charts for comparisons, line graphs for trends).
+
+## Anticipate business concerns:
+1) How reliable the prediction is
+2) Whether the recommendation is fair
+3) What the downside risk might be
+4) How this fits within current operations
+5) The model's accuracy in predicting delinquency for specific customer segments
+6) The potential impact of recommendations on customer relationships
+7) The feasibility of implementing the proposed interventions
+
+# Outcome:
+- Top 3 key factors affecting credit card delinquency - High DTI (Debt-to-Income) ratio, High Credit Utilization, Unemployment Status
+- Recommended Action - Reduce the delinquency rate within the high-utilization customer segment (Credit Utilization > 90%) by 12% over the next 12 months through the implementation of an automated "Early-Warning" intervention system and personalized financial counseling workflows.
+- Ethical AI considerations - Remove or transform proxy features (Zip codes, location) that show high statistical correlation with protected attributes (Age, Race, Gender) and audit selection rates using the 80% rule and recalibrate model thresholds to ensure equal opportunity across all demographics.
+
+
+
